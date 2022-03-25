@@ -1,6 +1,6 @@
 # Liatrio
 
-![Our Team](https://github.com/liatrio/.github/blob/main/profile/images/Liatrio_Team.png)
+![Our Team](https://insights.liatrio.com/Liatrio_Team.png)
 
 *Building software better, together*
 
