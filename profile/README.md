@@ -1,5 +1,7 @@
 # Liatrio
 
+![Our Team](images/Liatrio_Team.png)
+
 Liatrio guides complex organizations through their digital transformation journey, enabling them to deliver value faster and safer with Enterprise DevOps and Cloud Native delivery. We are passionate about open source and sharing with the community. Liatrio continues to grow with some amazing new customers and we're actively looking to add extraordinary consultant and engineering talent to our team — check out our [careers page](https://www.liatrio.com/careers) to learn more!
 
 ## How to reach us
