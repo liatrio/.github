@@ -13,10 +13,10 @@ This org represents Liatrio's view, approach, and delivery model for software de
 People, process and technology 
 
 ### Infrastructure 
-## Automation
+### Automation
 ### Config as Code
 ### Scalability/Reusability
-## Culture
+### Culture
 ### People
 ### Team Effectiveness
 Enabling team effectiveness is a crucial part of software delivery.  Liatrio's proven model of using dojo's (immersive places of learning) and embedded engineering coaches DOES help team from delivery of software, building platforms used to enable delivery and support of those teams, to business driven teams.
