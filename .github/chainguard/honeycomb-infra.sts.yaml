@@ -1,0 +1,9 @@
+issuer: https://token.actions.githubusercontent.com
+subject_pattern: 'repo:liatrio/tag-o11y-honeycomb-infra:.*'
+
+permissions:
+  contents: read
+
+repositories:
+- tag-o11y-manifests
+- tag-o11y-docs
