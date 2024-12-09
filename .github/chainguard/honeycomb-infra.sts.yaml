@@ -6,4 +6,4 @@ permissions:
 
 repositories:
 - tag-o11y-manifests
-- tag-o11y-docs
+- liatrio-backstage
