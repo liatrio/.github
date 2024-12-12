@@ -1,0 +1,18 @@
+issuer: https://token.actions.githubusercontent.com
+subject_pattern: "repo:liatrio/tag-automated-governance-milestones:ref:refs/heads/main"
+
+permissions:
+  issues: write
+
+repositories:
+  - backstage-plugin-autogov
+  - demo-autogov-hello-world-app
+  - demo-gh-attest-autogov
+  - demo-gh-autogov-caller-workflow
+  - demo-gh-autogov-policy-library
+  - demo-gh-autogov-workflows
+  - demo-ootb-backstage
+  - liatrio-gh-autogov-workflows
+  - liatrio-rego-policy-library
+  - tag-automated-governance-docs
+  - tag-automated-governance-manifests
