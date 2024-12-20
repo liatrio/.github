@@ -1,10 +1,9 @@
 issuer: https://token.actions.githubusercontent.com
-subject_pattern: 'repo:liatrio/tag-o11y-honeycomb-infra:.*'
-
+subject_pattern: repo:liatrio/tag-o11y-honeycomb-infra:.*
 permissions:
   contents: read
-
 repositories:
-- tag-o11y-manifests
-- liatrio-backstage
-- k8s-platform-v3-infra-modules
+  - tag-o11y-manifests
+  - liatrio-backstage
+  - k8s-platform-v3-infra-modules
+  - test-honeycomb-onboarding
