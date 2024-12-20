@@ -5,7 +5,7 @@ permissions:
   contents: read
 
 repositories:
-- tag-o11y-manifests
-- liatrio-backstage
-- k8s-platform-v3-infra-modules
-- test-honeycomb-onboarding
+  - tag-o11y-manifests
+  - liatrio-backstage
+  - k8s-platform-v3-infra-modules
+  - test-honeycomb-onboarding
