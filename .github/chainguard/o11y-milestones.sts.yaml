@@ -3,7 +3,7 @@ subject_pattern: repo:liatrio/tag-o11y-docs:.*
 permissions:
   contents: read
   issues: write
-  projects: write
+  # projects: write
 repositories:
   - Liatrio-Delivery-Methodology
   - tag-o11y-docs
