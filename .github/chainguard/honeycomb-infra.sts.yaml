@@ -6,5 +6,4 @@ repositories:
   - tag-o11y-manifests
   - liatrio-backstage
   - k8s-platform-v3-infra-modules
-  - golang-demo-app
-  - golang-demo-app2
+  - slack-telemetry-api
