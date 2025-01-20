@@ -10,3 +10,5 @@ repositories:
   - tag-o11y-manifests
   - tag-o11y-honeycomb-infra
   - tag-o11y-github-actions
+  - slack-telemetry-api
+  - microservice-demo
