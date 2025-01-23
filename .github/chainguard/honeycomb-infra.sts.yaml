@@ -3,7 +3,4 @@ subject_pattern: repo:liatrio/tag-o11y-honeycomb-infra:.*
 permissions:
   contents: read
 repositories:
-  - tag-o11y-manifests
-  - liatrio-backstage
-  - k8s-platform-v3-infra-modules
-  - slack-telemetry-api
+  - tag-o11y-honeycomb-infra
