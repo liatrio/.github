@@ -12,7 +12,9 @@ assignees: ''
 before?-->
 
 **As a** *Liatrio Engineer*
+
 **I would like** <describe_the_request>
+
 **So that** <describe_the_expected_benefit>
 
 ## Acceptance Criteria
