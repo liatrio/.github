@@ -6,3 +6,6 @@ permissions:
 
 repositories:
   - liatrio-rego-policy-library
+  - demo-gh-autogov-policy-library
+  - autogov-helper
+  - autogov-verify
