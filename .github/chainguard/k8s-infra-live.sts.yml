@@ -1,0 +1,11 @@
+# subject pattern is defining what repo and branch is allowed to generate a token at the permission level set below
+issuer: https://token.actions.githubusercontent.com
+subject_pattern: "repo:liatrio/k8s-platform-v3-infra-live"
+
+permissions:
+  contents: read
+
+# want to make infra modules and mono repo readable by infra live (subject)
+repositories:
+  - k8s-platform-v3-infra-modules
+  - k8s-platform-v3-monorepo
