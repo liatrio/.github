@@ -8,11 +8,13 @@ repositories:
   - backstage-plugin-autogov
   - demo-autogov-hello-world-app
   - demo-gh-attest-autogov
-  - demo-gh-autogov-caller-workflow
+  - demo-gh-autogov-caller-workflows
   - demo-gh-autogov-policy-library
   - demo-gh-autogov-workflows
   - demo-ootb-backstage
   - liatrio-gh-autogov-workflows
   - liatrio-rego-policy-library
+  - autogov-helper
+  - autogov-verify
   - tag-automated-governance-docs
   - tag-automated-governance-manifests
