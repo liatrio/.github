@@ -1,0 +1,7 @@
+issuer: https://token.actions.githubusercontent.com
+subject_pattern: "repo:liatrio/.*"
+permissions:
+  contents: read
+repositories:
+  - dora-s3-infra
+  - dora-s3-tf-module
