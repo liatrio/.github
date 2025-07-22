@@ -9,3 +9,4 @@ repositories:
   - demo-gh-autogov-policy-library
   - autogov-helper
   - autogov-verify
+  - k8s-platform-v3-ingress-auth-demo
