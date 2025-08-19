@@ -3,6 +3,7 @@ subject_pattern: "repo:liatrio/.*"
 
 permissions:
   contents: read
+  packages: read
 
 repositories:
   - liatrio-rego-policy-library
