@@ -4,7 +4,7 @@ subject_pattern: "repo:liatrio/.*"
 permissions:
   contents: read
   packages: read
-
+  attestations: read 
 repositories:
   - liatrio-rego-policy-library
   - demo-gh-autogov-policy-library
