@@ -11,3 +11,5 @@ repositories:
   - autogov-verify
   - k8s-platform-v3-ingress-auth-demo
   - liatrio-gh-autogov-workflows
+  - demo-autogov-gating-examples 
+  - hello-autogov  
