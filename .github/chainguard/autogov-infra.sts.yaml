@@ -3,6 +3,7 @@ subject_pattern: "repo:liatrio/.*"
 
 permissions:
   contents: read
+  packages: read
 
 repositories:
   - liatrio-rego-policy-library
@@ -11,3 +12,4 @@ repositories:
   - autogov-verify
   - k8s-platform-v3-ingress-auth-demo
   - liatrio-gh-autogov-workflows
+  - hello-autogov
