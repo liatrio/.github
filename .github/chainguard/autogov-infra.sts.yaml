@@ -4,7 +4,7 @@ subject_pattern: "repo:liatrio/.*"
 permissions:
   contents: read
   packages: read
-  attestations: read
+  attestations: write
 
 repositories:
   - liatrio-rego-policy-library
