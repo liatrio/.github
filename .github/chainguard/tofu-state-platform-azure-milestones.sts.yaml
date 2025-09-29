@@ -10,3 +10,4 @@ repositories:
   - tofu-state-platform-deploy
   - tofu-state-platform-opa-image
   - tofu-platform-azure-opa-policies
+  - tofu-state-platform-azure
