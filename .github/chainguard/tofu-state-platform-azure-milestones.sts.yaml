@@ -1,0 +1,12 @@
+issuer: https://token.actions.githubusercontent.com
+subject_pattern: "repo:liatrio/tofu-state-platform-azure-milestones:ref:refs/heads/main"
+
+permissions:
+  issues: write
+
+repositories:
+  - tofu-state-platform-apps
+  - tofu-azure-test-repo
+  - tofu-state-platform-deploy
+  - tofu-state-platform-opa-image
+  - tofu-platform-azure-opa-policies
