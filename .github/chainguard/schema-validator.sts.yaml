@@ -4,6 +4,8 @@ subject_pattern: "repo:liatrio/.*"
 
 permissions:
   packages: read
+  contents: read
+  metadata: read
 
 # list of repositories we want to make contents readable by the repos identified in the subject_pattern
 repositories:
