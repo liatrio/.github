@@ -10,3 +10,4 @@ permissions:
 # list of repositories we want to make contents readable by the repos identified in the subject_pattern
 repositories:
   - schema-validator
+  - autogov-gate
