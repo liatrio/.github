@@ -1,0 +1,11 @@
+issuer: https://token.actions.githubusercontent.com
+# Allow get-all-docs repository to read metadata and pages info from all liatrio repos
+subject_pattern: "repo:liatrio/get-all-docs:.*"
+
+permissions:
+  metadata: read
+  pages: read
+
+# Grant access to all repositories in the liatrio organization
+repositories:
+  - "*"
