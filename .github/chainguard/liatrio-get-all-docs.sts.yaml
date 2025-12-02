@@ -5,7 +5,3 @@ subject_pattern: "repo:liatrio/.*"
 permissions:
   metadata: read
   pages: read
-
-# Grant access to all repositories in the liatrio organization
-repositories:
-  - "*"
