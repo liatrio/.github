@@ -1,6 +1,6 @@
 # Allow order-service (and potentially other consumers) to read the contract
 issuer: https://token.actions.githubusercontent.com
-subject_pattern: "repo:liatrio/client-contract-poc-order-service:.*"
+subject_pattern: "repo:liatrio/.*"
 
 permissions:
   contents: read
