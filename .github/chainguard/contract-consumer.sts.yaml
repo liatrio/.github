@@ -7,3 +7,4 @@ permissions:
 
 repositories:
   - client-contract-poc-inventory-service
+  - client-contract-poc-order-service
