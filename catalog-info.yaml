@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: .github
+  description: Liatrio's GitHub Profile
+  annotations:
+    github.com/project-slug: liatrio/.github
+spec:
+  type: service
+  lifecycle: production
+  owner: team-platform
