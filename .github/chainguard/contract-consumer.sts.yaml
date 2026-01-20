@@ -6,5 +6,5 @@ permissions:
   contents: read
 
 repositories:
-  - client-contract-poc-inventory-service
-  - client-contract-poc-order-service
+  - client-be-bff-integration-testing-poc-inventory-service
+  - client-be-bff-integration-testing-poc-order-service
