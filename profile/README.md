@@ -1,6 +1,6 @@
 # Liatrio
 
-![Our Team](./../assets/GROUP-AVATAR.png)
+![Our Team](./../assets/GROUP-AVATAR-2026-02-24.png)
 
 *Building software better, together*
 
