@@ -1,0 +1,15 @@
+issuer: https://token.actions.githubusercontent.com
+subject_pattern: "repo:liatrio/.*:ref:refs/heads/main"
+
+permissions:
+  actions: read
+  contents: write
+  packages: write
+
+repositories:
+  - liatrio-gh-autogov-workflows
+  - liatrio-gh-autogov-caller-workflows
+  - demo-gh-autogov-workflows
+  - demo-gh-autogov-caller-workflows
+  - liatrio-rego-policy-library
+  - demo-gh-autogov-policy-library
