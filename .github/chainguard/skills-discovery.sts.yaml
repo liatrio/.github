@@ -1,0 +1,9 @@
+issuer: https://token.actions.githubusercontent.com
+# Allow skills-platform's discovery workflow to enumerate
+# and read skill repos across the org
+subject_pattern: "repo:liatrio/skills-platform:.*"
+
+permissions:
+  contents: read
+  metadata: read
+  packages: read
