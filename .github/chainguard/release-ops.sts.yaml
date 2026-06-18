@@ -7,6 +7,7 @@ permissions:
   packages: write
 
 repositories:
+  - autogov
   - liatrio-gh-autogov-workflows
   - liatrio-gh-autogov-caller-workflows
   - demo-gh-autogov-workflows
