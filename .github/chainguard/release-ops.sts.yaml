@@ -10,3 +10,4 @@ repositories:
   - autogov
   - autogov-workflows
   - autogov-policy-library
+  - autogov-caller-workflows
