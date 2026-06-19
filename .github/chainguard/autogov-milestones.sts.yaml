@@ -5,8 +5,6 @@ permissions:
   issues: write
 
 repositories:
-  - backstage-plugin-autogov
-  - demo-autogov-hello-world-app
   - autogov-workflows
   - autogov-policy-library
   - tag-automated-governance-docs
