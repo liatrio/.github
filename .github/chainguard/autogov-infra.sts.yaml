@@ -8,11 +8,7 @@ permissions:
 repositories:
   - autogov
   - autogov-solutions
-  - liatrio-rego-policy-library
   - autogov-policy-library
-  - demo-gh-autogov-policy-library
   - k8s-platform-v3-ingress-auth-demo
-  - liatrio-gh-autogov-workflows
   - autogov-workflows
-  - demo-gh-autogov-workflows
   - hello-autogov
