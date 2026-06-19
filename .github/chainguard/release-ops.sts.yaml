@@ -9,5 +9,4 @@ permissions:
 repositories:
   - autogov
   - autogov-workflows
-  - liatrio-gh-autogov-caller-workflows
   - autogov-policy-library

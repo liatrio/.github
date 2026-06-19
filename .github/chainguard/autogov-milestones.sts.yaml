@@ -7,11 +7,7 @@ permissions:
 repositories:
   - backstage-plugin-autogov
   - demo-autogov-hello-world-app
-  - demo-gh-attest-autogov
-  - demo-ootb-backstage
   - autogov-workflows
   - autogov-policy-library
-  - autogov-helper
-  - autogov-verify
   - tag-automated-governance-docs
   - tag-automated-governance-manifests
