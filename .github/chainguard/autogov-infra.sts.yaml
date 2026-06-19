@@ -9,6 +9,5 @@ repositories:
   - autogov
   - autogov-solutions
   - autogov-policy-library
-  - k8s-platform-v3-ingress-auth-demo
   - autogov-workflows
   - hello-autogov
