@@ -1,0 +1,9 @@
+issuer: https://token.actions.githubusercontent.com
+subject_pattern: "repo:liatrio/.*"
+
+permissions:
+  contents: read
+  packages: read
+
+repositories:
+  - skill-bill-of-behaviors
