@@ -16,11 +16,11 @@ claim_pattern:
 #     bypassActorsComplete leg) + the ruleset version-history endpoints (the
 #     continuity no-gap proof). this is the bit github.token cannot hold.
 #   - contents:read       → repo + commit reads (the producer's first-parent walk).
-#   - pull-requests:read  → PR review/approval data recorded in the attestation.
+#   - pull_requests:read  → PR review/approval data recorded in the attestation.
 permissions:
   administration: read
   contents: read
-  pull-requests: read
+  pull_requests: read
 
 repositories:
   - autogov
