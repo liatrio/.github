@@ -1,0 +1,29 @@
+issuer: https://token.actions.githubusercontent.com
+# the source-review attestation (incl. the continuity ruleset-history walk) is
+# produced by the rw-attest-blob AND rw-attest-image reusable workflows (both run an
+# attest-source-review job); rw-attest-blob-offline does NOT, so it is excluded.
+# claim_pattern pins this grant to those two reusables so it is least-privilege.
+# (the OIDC `sub` is the CALLER repo for a reusable workflow, hence the broad
+# subject_pattern scoped down by `repositories` + the job_workflow_ref claim.)
+subject_pattern: "repo:liatrio/.*"
+claim_pattern:
+  job_workflow_ref: "liatrio/autogov-workflows/\\.github/workflows/rw-attest-(blob|image)\\.yaml@.*"
+
+# read-only. this token replaces github.token for the source-review producer, so it
+# needs the producer's full read set; administration:read is the NEW capability that
+# unlocks L3:
+#   - administration:read → Repositories.GetRuleset bypass_actors (closes the
+#     bypassActorsComplete leg) + the ruleset version-history endpoints (the
+#     continuity no-gap proof). this is the bit github.token cannot hold.
+#   - contents:read       → repo + commit reads (the producer's first-parent walk).
+#   - pull_requests:read  → PR review/approval data recorded in the attestation.
+permissions:
+  administration: read
+  contents: read
+  pull_requests: read
+
+repositories:
+  - autogov
+  - autogov-workflows
+  - autogov-policy-library
+  - autogov-caller-workflows
