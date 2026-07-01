@@ -5,3 +5,4 @@ subject_pattern: "repo:liatrio/get-all-docs:.*"
 permissions:
   metadata: read
   pages: read
+  contents: read
